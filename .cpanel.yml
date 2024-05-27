@@ -4,10 +4,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/everestm/public_html/
     - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R fonts $DEPLOYPATH
-    - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp about-us.html $DEPLOYPATH
     - /bin/cp contact-us.html $DEPLOYPATH
