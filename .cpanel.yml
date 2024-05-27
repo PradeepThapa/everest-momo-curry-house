@@ -1,5 +1,22 @@
+
 ---
 deployment:
   tasks:
     - export DEPLOYPATH=/home/everestm/public_html/
-     - /bin cp * $DEPLOYPATH #copy all from root 
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp about-us.html $DEPLOYPATH
+    - /bin/cp contact-us.html $DEPLOYPATH
+    - /bin/cp location-map.html $DEPLOYPATH
+    - /bin/cp reservation.html $DEPLOYPATH
+    - /bin/cp t&c.html $DEPLOYPATH
+    - /bin/cp taste-of-everest.html $DEPLOYPATH
+    - /bin/cp taste-of-india.html $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
+    - /bin/cp sitemap.xml $DEPLOYPATH
+    
+
