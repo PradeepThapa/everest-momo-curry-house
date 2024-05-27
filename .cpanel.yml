@@ -9,7 +9,7 @@ deployment:
     - /bin/cp -r contact-us.html $DEPLOYPATH
     - /bin/cp -r location-map.html $DEPLOYPATH
     - /bin/cp -r reservation.html $DEPLOYPATH
-    - /bin/cp -r t&c.html $DEPLOYPATH
+    - /bin/cp -r t-and-c.html $DEPLOYPATH
     - /bin/cp -r taste-of-everest.html $DEPLOYPATH
     - /bin/cp -r taste-of-india.html $DEPLOYPATH
     - /bin/cp -r robots.txt $DEPLOYPATH
